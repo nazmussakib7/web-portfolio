@@ -1,0 +1,68 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin:0;
+    padding:0;
+}
+h1{ 
+    font-size: 50px;
+}  
+.top-banner{
+    background-image: url("images/top-banner.png");
+    background-repeat:no-repeat;
+}
+.name-highlight{
+    color:orange;
+}
+.half-width{
+    width:40%;
+    float:left;
+    margin-left:5%;
+    padding-left:2%;
+  
+}
+.half-width img{
+    width:100%;
+}
+p{
+    color:dimgray;
+    font-size:20px;
+}
+.link-highlight{
+    background-image:linear-gradient(180deg,lightsalmon,tomato);
+    color:white;
+    font-weight:bold;
+    font-size:20px;
+    border-radius:5px;
+    padding:13px 22px;
+    text-decoration: none;
+}
+section{
+    height:500px;
+    
+    padding-bottom:400px;
+   
+}
+.single-experience{
+    color:orange;
+}
+.experience-area1{
+    box-shadow:10px 10px 40px gray;
+    height:500px;
+    border-left:7px solid;
+    border-image:linear-gradient(lightsalmon,tomato);
+    border-image-slice:1;
+    background-color:white;
+}
+.experience-area2{
+    box-shadow:10px 10px 40px gray;
+    height:500px;
+    border-left:7px solid;
+    border-image:linear-gradient(blue,cyan);
+    border-image-slice:1;
+}
+.exp-part{
+    background-image: url("images/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+    
+}
